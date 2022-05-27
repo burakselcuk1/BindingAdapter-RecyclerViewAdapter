@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="resim"
+            type="com.example.adaptertwo.Person" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="200dp"
+            bozo="@{resim.url}"
+            android:layout_height="200dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
